@@ -1,5 +1,6 @@
 enpc
 enpc.pub
+/__pycache__/*
 fe2_new.py
 *.png
 *.pdf

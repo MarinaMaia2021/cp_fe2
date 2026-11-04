@@ -175,7 +175,7 @@ def run(H_history, dt, rve=None, prefix="single_point_gp", component="xx", plot=
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--loading", default="file", choices=["gp", "monotonic", "file"], help="type of loading")
+    parser.add_argument("--loading", default="gp", choices=["gp", "monotonic", "file"], help="type of loading")
     parser.add_argument("--file", default="/results/macro_uniaxial_stress.csv",
                         help="csv file with the full F, for --loading file")
     parser.add_argument("--final-dofs", type=float, nargs=6, default=[0.002, 0.0, 0.0, 0.0, 0.0, 0.0],
