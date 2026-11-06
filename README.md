@@ -14,13 +14,14 @@ It was rewritten to be called more easily in the file _rve_crystal_plasticity.py
 
 File name: _single_point_gp.py_ 
 
-INPUT:  
-OUTPUT:  
+INPUT: Homogenized deformation gradient, increments of time per step
+OUTPUT: Homogenized cauchy stresses, Homogenized tangent stiffness matrix
 
 # Environment 
+Version of packages used to run this repo
 environment.yml
 
-# Validation 
-To be done: 
-
-verify _single_point_gp.py_ gives the same pairs of homogenized quantities as using _problem.py_
+# To-do list: 
+  1. Verify _single_point_gp.py_ gives the same pairs of homogenized quantities as using _problem.py_
+  2. Generate samples with unrotated pairs of homogenized stretches and unrotated homogenized (cauchy) stresses
+  3. Create PRNN file with embedded crystal plasticity model (with simple linear encoder and decoder)
