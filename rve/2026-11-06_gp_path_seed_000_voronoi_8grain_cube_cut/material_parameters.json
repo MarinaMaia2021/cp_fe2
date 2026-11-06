@@ -1,0 +1,8 @@
+{
+  "initial_slip_resistance": 90.0,
+  "initial_hardening_modulus": 392.9772,
+  "saturation_slip_resistance": 7295.1754,
+  "hardening_saturation_exponent": 8.0,
+  "reference_slip_rate": 0.001,
+  "rate_sensitivity_exponent": 0.008333333333333333
+}
